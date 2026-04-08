@@ -20,8 +20,8 @@ const Hero = () => {
             <div className="relative h-full">
 
                 {/* Text Content */}
-                <div className=" absolute left-150 top-2/5 -translate-y-1/2 w-full px-10 z-30">
-                    <h1 className="text-[70px] md:text-[130px] font-extrabold leading-[0.85] tracking-tight text-white/50">
+                <div className=" absolute left-165 top-3/7 -translate-y-1/2 w-full px-10 z-30">
+                    <h1 className="text-[80px] md:text-[130px]  font-extrabold leading-[0.85] tracking-tight text-white/50">
                         POWER YOUR <br /> <span className="tracking-wide">PONTETIALE</span>
                     </h1>
 
@@ -39,7 +39,7 @@ const Hero = () => {
                 {/* Right Image */}
                 <div className="absolute right-12 top-30 z-20">
                     <Image
-                        src="/hero.png" // 👉 replace with your image
+                        src="/hero.png" 
                         alt="gym"
                         width={1000}
                         height={1000}

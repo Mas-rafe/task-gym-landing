@@ -1,10 +1,18 @@
+import Image from "next/image";
+
 const Navbar = () => {
   return (
-    <nav className="absolute top-0 w-full flex items-center justify-between  py-6 z-30">
+    <nav className="absolute top-0 w-full flex items-center justify-between   z-30">
 
       {/* Logo */}
-      <div className="bg-green-500 p-3 rounded-full">
-        ⚙️
+      <div className="bg-white">
+        <Image
+          src="/logo.png"
+          alt="gym"
+          width={126}
+          height={126}
+          className=" pl-2 rounded-3xl bg-white object-contain"
+        />
       </div>
 
       {/* Menu */}
@@ -24,7 +32,7 @@ const Navbar = () => {
       </div>
 
       {/* Register Button */}
-      <button className="bg-green-500 px-6 py-3 rounded-full font-semibold h-28 w-3xs">
+      <button className="text-2xl bg-[#71AC16] mr-10  rounded-full font-semibold h-28 w-xs">
         REGISTER
       </button>
     </nav>
