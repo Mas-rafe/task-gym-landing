@@ -5,11 +5,11 @@ const ProductCard = ({ product }) => {
     <div className="bg-black rounded-3xl p-4 hover:scale-105 transition duration-300">
 
       {/* 🔹 Image */}
-      <div className="overflow-hidden rounded-3xl">
+      <div className="overflow-hidden rounded-3xl  h-[425]">
         <img
           src={product.image}
           alt={product.name}
-          className="w-full h-56 object-cover rounded-3xl"
+          className="w-full h-[410] p-2  object-cover rounded-3xl"
         />
       </div>
 

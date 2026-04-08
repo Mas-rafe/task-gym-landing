@@ -6,7 +6,7 @@ import Sidebar from "../sections/Sidebar";
 
 const Hero = () => {
     return (
-        <section className="relative h-svw w-full  top-5 text-white overflow-hidden ">
+        <section className="relative min-h-[130vh] top-5  w-full  text-white overflow-hidden ">
 
             {/* Navbar */}
             <Navbar />
@@ -20,7 +20,7 @@ const Hero = () => {
             <div className="relative h-full">
 
                 {/* Text Content */}
-                <div className=" absolute left-165 top-3/7 -translate-y-1/2 w-full px-10 z-30">
+                <div className=" absolute left-167 translate-y-4/2 w-full  z-30">
                     <h1 className="text-[80px] md:text-[130px]  font-extrabold leading-[0.85] tracking-tight text-white/50">
                         POWER YOUR <br /> <span className="tracking-wide">PONTETIALE</span>
                     </h1>
