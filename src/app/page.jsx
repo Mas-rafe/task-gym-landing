@@ -1,3 +1,4 @@
+import Footer from "@/components/layout/Footer";
 import Hero from "@/components/sections/Hero";
 import NewsletterSection from "@/components/sections/NewsletterSection";
 import ProductSection from "@/components/sections/ProductSection";
@@ -12,6 +13,7 @@ export default function Page() {
       <TrainingSection/>
       <ReviewSection/>
       <NewsletterSection/>
+      <Footer/>
     </main>
   );
 }
