@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -32,9 +33,11 @@ const Navbar = () => {
       </div>
 
       {/* Register Button */}
-      <button className="text-2xl bg-[#71AC16] mr-10  rounded-full font-semibold h-28 w-xs">
+      <Link href="/auth/register">
+      <button className="text-2xl bg-[#71AC16] mr-10  rounded-full font-semibold h-12 w-40 lg:h-28 lg:w-xs">
         REGISTER
       </button>
+      </Link>
     </nav>
   );
 };

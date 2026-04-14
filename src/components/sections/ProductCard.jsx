@@ -4,7 +4,7 @@ const ProductCard = ({ product }) => {
   return (
     <div className="bg-black rounded-3xl p-4 hover:scale-105 transition duration-300">
 
-      {/* 🔹 Image */}
+      {/*  Image */}
       <div className="overflow-hidden rounded-3xl  h-[425]">
         <img
           src={product.image}
@@ -13,7 +13,7 @@ const ProductCard = ({ product }) => {
         />
       </div>
 
-      {/* 🔹 Bottom Content */}
+      {/*  Bottom Content */}
       <div className="flex justify-between items-center mt-4">
 
         {/* LEFT SIDE */}
@@ -22,17 +22,18 @@ const ProductCard = ({ product }) => {
             {product.name}
           </h3>
 
-          <p className="text-gray-400">
-            ${product.price}
-          </p>
 
-          <div className="text-yellow-400 text-sm">
-            ⭐⭐⭐⭐⭐
+          <div className="text-yellow-400 text-sm flex items-center gap-4">
+            <p className="text-gray-400">
+              ${product.price}
+            </p>
+
+            <p>⭐⭐⭐⭐⭐</p>
           </div>
         </div>
 
-        {/* RIGHT SIDE (+ BUTTON) */}
-        <button className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center hover:bg-green-600 transition">
+        {/* RIGHT SIDE  */}
+        <button className="w-12 h-12 bg-green-500 rounded-xl flex items-center justify-center hover:bg-green-600 transition">
           <Plus size={18} />
         </button>
 
